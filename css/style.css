@@ -1,0 +1,196 @@
+@import url("reset.css");
+
+body {
+	margin:0;
+	padding:0;
+	background: url(../images/bg-image.jpg) no-repeat fixed center top;
+}
+p {
+	margin: 10px 0;
+	padding: 0;
+}
+
+.clearfloat {
+	clear: both;
+}
+
+#container {
+	margin: 0 auto;
+	width: 1200px;
+	overflow-x: hidden; 
+}
+
+#header {
+	position: fixed;
+	z-index: 1000;
+}
+
+.logo {	
+	float: right; 	
+	width:170px;
+}
+
+.navigation, .navigation-flash {	
+	background:url(../images/header-bg.png) no-repeat right;
+	font: 18px "Times New Roman", Times, serif;
+	float: right;
+	height: 90px;
+	margin: 15px 50px 0 0;
+	width: 970px;
+}
+.navigation-flash {
+	background: none;
+}
+.navigation ul {
+	margin: 35px 40px 0 0;
+}
+	
+.navigation li {
+	display: block;
+	float: right;
+	margin: 5px 20px;
+}
+.navigation li a{
+	color: #000;
+	text-decoration: none
+}
+.select a{
+	color: #500b6e;
+	text-decoration: none;
+}
+.select a:hover, .navigation li a:hover, #footer a:hover{
+	color: #500b6e;
+}
+
+.banner {
+	height: 460px;
+	}
+.bannertext {
+	float: left;
+	padding: 60px 0 0 90px;
+	width: 500px;
+	}
+.bannerbutton {
+	background: url(../images/button-bg-1.png) no-repeat;
+	float: left;
+	height: 40px;
+	margin: 30px 0 0 330px;
+	padding: 7px 17px;
+	width: 115px;
+}
+.bannerbutton a{
+	color: #dcbbe9;
+	font: normal 18px "Times New Roman", Times, serif;	
+	text-decoration: none;
+}
+.bannerbutton a:hover {
+	color: #fff;
+	}
+#content {
+	background:#FFF;
+	opacity: 0.9;
+	filter:alpha(opacity=90);
+	height: 320px;
+}
+.content-top-bar {
+	background-color:#ffd403;
+	height: 2px;
+}
+.content-mainpagebox {
+	margin: 30px 30px;
+}
+.content-mainpagebox a {
+	color: #000;
+	text-decoration: none;
+}
+.content-mainpagebox a:hover {
+	color: #510b70;
+}
+.content-mainpage-welcome-image {
+	float:right;
+	width: 298px;
+}
+.content-mainpage-welcome-text, .content-mainpage-section {
+	font: normal 17px/22px "Times New Roman", Times, serif;
+	float: right;
+	margin: 0 20px;
+	text-align: right;
+	width: 400px;
+}
+.content-mainpage-section {
+	margin: 0 10px;
+	width: 380px;
+}
+
+.content-mainpage-heading1, .content-mainpage-heading2, .content-mainpage-more {
+	background: url(../images/heading1_bg.png) no-repeat bottom;
+	font: normal 24px "Times New Roman", Times, serif;
+	float: right;
+	height: 35px;
+	padding: 0 5px 0 0;
+	margin-right: -5px;
+	text-align: right;
+	width: 60px;
+}
+.content-mainpage-heading2 {
+	background: url(../images/heading2_bg.png) no-repeat bottom;
+	width: 230px;
+}
+.content-mainpage-more {
+	background: url(../images/more_bg.png) no-repeat bottom right; 
+	font: bold 14px "Times New Roman", Times, serif;
+	float:left;
+	height: 20px;
+	width: 80px;
+}
+.contactinfo {
+	font: normal 24px "Times New Roman", Times, serif;
+	float: right;
+	text-align: right;
+	margin: 10px 0;	
+	}
+.contactinfo a {
+	color:#000;
+	text-decoration: none;
+}
+.icon {
+	margin: 10px 0 0 10px;
+}
+#footer {
+	background:#FFF;
+	color: #797979;
+	height: 90px;
+}
+#footer a {
+	color: #797979;
+	text-decoration:none;
+}
+.footerlinks {
+	float: left;
+	font: normal 14px/18px "Times New Roman", Times, serif;
+	margin: 20px 30px;
+	width: 600px;
+}
+.footerlinks li {
+	display: block;
+	float: right;
+	margin: 0 5px;
+	text-align:left;
+}
+.yellowbar {
+	color: #ffd81e;
+}
+.footercopyright {
+	color: #c9c9c9;
+	float: right;
+	font: normal 10px/12px Arial, Helvetica, sans-serif;
+	margin: 20px 20px;
+	text-align: right;
+	width: 300px;
+}
+.footerlogo {
+	float: right;
+	margin: 20px 30px 0 0;
+	text-align: right;
+	width: 68px;
+}
